@@ -1,0 +1,34 @@
+{
+  "name": "movie-api",
+  "version": "1.0.0",
+  "description": "Movie API with Graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TOP-ASSI/movie-api.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "topassi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TOP-ASSI/movie-api/issues"
+  },
+  "homepage": "https://github.com/TOP-ASSI/movie-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-env": "^2.4.1",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
